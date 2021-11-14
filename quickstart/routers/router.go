@@ -6,6 +6,7 @@ import (
 )
 
 func init() {
+	// 执行路由映射
     beego.Router("/", &controllers.MainController{})
     beego.Router("/user",&controllers.UserController{})
 }

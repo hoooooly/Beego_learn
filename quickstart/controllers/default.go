@@ -5,7 +5,7 @@ import (
 )
 
 type MainController struct {
-	beego.Controller
+	beego.Controller // 控制器
 }
 
 type UserController struct {
